@@ -1,0 +1,10 @@
+[package]
+name = "sym-index"
+version = "0.1.0"
+compiler = "0.13.0"
+entrypoint = "src/lib.typ"
+authors = ["Joachim Koerfer"]
+license = "MIT"
+description = "A fast back-of-the-book index, plus a notation index that links every symbol to the place where it was defined."
+keywords = ["index", "notation", "symbols", "glossary", "thesis"]
+categories = ["utility"]

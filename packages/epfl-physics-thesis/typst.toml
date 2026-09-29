@@ -1,0 +1,10 @@
+[package]
+name = "epfl-physics-thesis"
+version = "0.1.0"
+compiler = "0.15.0"
+entrypoint = "src/lib.typ"
+authors = ["Joachim Koerfer", "Auguste Baum <https://github.com/augustebaum>"]
+license = "MIT"
+description = "An EPFL doctoral thesis template: chapter styling, cross-reference rules, aligned equation grids, a notation index and a CV."
+keywords = ["thesis", "university", "EPFL", "Lausanne", "physics"]
+categories = ["thesis"]
