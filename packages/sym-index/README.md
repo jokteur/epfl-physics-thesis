@@ -55,7 +55,7 @@ Without `key:`, the key is guessed from the math content with `math-to-sortkey`,
 
 ## The plain index
 
-`index()` is the low-level marker and works without any symbol machinery:
+You can use `index()` to mark a page for the index without rendering a symbol:
 
 ```typst
 Tokamaks #index("tokamak") confine a plasma #index("plasma") with magnetic fields.
