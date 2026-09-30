@@ -1,6 +1,12 @@
 # A Typst physics thesis template (EPFL)
 
-A Typst template for a physics thesis at EPFL. Besides styling close to LaTeX, it adds: a **notation index** that links each symbol to the page where it is defined, **aligned equation blocks** with sub-numbers (like LaTeX's `subequations`), **matplotlib figures exported as Typst**, so labels can reference equations and symbols, and a **CV** for the end of the thesis.
+A Typst template for a physics thesis at EPFL.
+
+Here a few nice features I created and used during my thesis: 
+- a **notation index** that links each symbol to the page where it is defined
+- **aligned equation blocks** with sub-numbers (like LaTeX's `subequations`)
+- **matplotlib figures exported as Typst**, so labels can reference equations and symbols
+- a **CV** for the end of the thesis.
 
 ```
 epfl-physics-thesis/
@@ -21,7 +27,7 @@ cd example
 typst watch main.typ             # or: typst compile main.typ
 ```
 
-This produces `example/main.pdf`, which also serves as documentation: every feature is shown and explained in it.
+This creates `example/main.pdf`, which also serves as documentation: every feature is shown and explained in it.
 
 To start your own thesis, copy `example/` somewhere and delete the placeholder text. 
 
